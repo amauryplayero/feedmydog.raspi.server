@@ -28,7 +28,7 @@ PAGE="""\
     // Add a click event listener to the button
     myButton.addEventListener('click', () => {
         // Define the URL you want to send the GET request to
-        const url = 'http://141.149.53.230:8000/move-servo'; // Replace with your desired URL
+        const url = 'http://173.77.139.78:8000/move-servo'; // Replace with your desired URL
 
         // Make the GET request using fetch()
         fetch(url)
