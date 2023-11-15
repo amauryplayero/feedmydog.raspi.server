@@ -120,7 +120,7 @@ class StreamingHandler(server.BaseHTTPRequestHandler):
                 time.sleep(0.3)
                 
                 servo.ChangeDutyCycle(endPosition)
-                time.sleep(0.7)
+                time.sleep(4)
                 servo.ChangeDutyCycle(startPosition)
                 GPIO.cleanup()
                 print("all cleared")
